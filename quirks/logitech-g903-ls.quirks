@@ -1,0 +1,7 @@
+[Logitech G903 LS discrete wheel for GeForce NOW]
+MatchName=Logitech G903 LS
+MatchUdevType=mouse
+MatchBus=usb
+MatchVendor=0x046D
+MatchProduct=0x4087
+AttrEventCode=-REL_WHEEL_HI_RES;-REL_HWHEEL_HI_RES;

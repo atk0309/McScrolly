@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">McScrolly</title>
+  <desc id="description">Make Scrolling on Linux Scroll Again. A bright green mouse wheel with arrows and ordinary scroll ticks, on a dark background.</desc>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#253733" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1d1b"/>
+      <stop offset="1" stop-color="#14221f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="20" fill="url(#background)"/>
+  <rect x="720" width="480" height="360" rx="20" fill="url(#grid)" opacity=".48"/>
+  <path d="M0 332H1200" stroke="#b7ed63" stroke-width="2" opacity=".55"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <rect x="54" y="40" width="262" height="30" rx="15" fill="#22392e"/>
+    <circle cx="71" cy="55" r="4" fill="#b7ed63"/>
+    <text x="85" y="60" fill="#c8ecaa" font-size="12" font-weight="700" letter-spacing="1.2">GEFORCE NOW · LINUX</text>
+    <text x="49" y="163" fill="#f0f6ec" font-size="78" font-weight="800" letter-spacing="-4">McScrolly<tspan fill="#b7ed63">.</tspan></text>
+    <text x="54" y="217" fill="#d8e8d3" font-size="25" font-weight="600">Make Scrolling on Linux Scroll Again.</text>
+    <text x="54" y="264" fill="#a8bfb6" font-size="17">The wheel has one job. Let's give it back.</text>
+    <text x="54" y="348" fill="#b7ed63" font-size="10" font-weight="700" letter-spacing="2">SMALL QUIRK. ORDINARY SCROLL STEPS.</text>
+  </g>
+  <g transform="translate(915 173)">
+    <circle r="125" fill="#152a23" stroke="#365744" stroke-width="1"/>
+    <circle r="105" fill="none" stroke="#72984d" stroke-width="2" stroke-dasharray="2 13"/>
+    <path d="M-73-62A96 96 0 0 1 80-45" fill="none" stroke="#b7ed63" stroke-width="5" stroke-linecap="round"/>
+    <path d="M67-46L83-40 87-57" fill="none" stroke="#b7ed63" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M73 62A96 96 0 0 1-80 45" fill="none" stroke="#b7ed63" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-67 46L-83 40-87 57" fill="none" stroke="#b7ed63" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="-41" y="-70" width="82" height="140" rx="38" fill="#102018" stroke="#d0f99b" stroke-width="3"/>
+    <rect x="-23" y="-53" width="46" height="106" rx="21" fill="#b7ed63"/>
+    <g stroke="#477035" stroke-width="3" stroke-linecap="round">
+      <path d="M-13-35H13M-16-21H16M-16-7H16M-16 7H16M-16 21H16M-13 35H13"/>
+    </g>
+  </g>
+  <g font-family="DejaVu Sans Mono, monospace" font-size="13" font-weight="700" fill="#c8ecaa" text-anchor="middle">
+    <rect x="849" y="302" width="132" height="28" rx="14" fill="#27422e"/>
+    <text x="915" y="321">+120 / −120</text>
+  </g>
+</svg>

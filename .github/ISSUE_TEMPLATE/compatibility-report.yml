@@ -1,0 +1,76 @@
+name: Wheel compatibility report
+description: Tell us where the GeForce NOW wheel workaround works, or where it still does not.
+title: "[Compatibility] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The wheel has one job. Help us document whether it is doing it.
+
+        Report observed results, including failures. Please omit serial numbers,
+        credentials, private paths, full Solaar output and raw input recordings.
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result in the native GeForce NOW Linux app
+      options:
+        - Scrolling works in a streamed game
+        - Scrolling still fails in a streamed game
+        - Configuration checked, game not tested yet
+    validations:
+      required: true
+  - type: input
+    id: mouse
+    attributes:
+      label: Mouse model and connection
+      description: Include receiver, wired USB or Bluetooth, as applicable.
+      placeholder: Logitech G903 with HERO sensor, wireless receiver
+    validations:
+      required: true
+  - type: textarea
+    id: identity
+    attributes:
+      label: Linux input-device identity
+      description: Input name, bus, vendor and product IDs from the troubleshooting guide. These can differ from the USB dongle's IDs. No serial numbers.
+      placeholder: |
+        Name:
+        Bus:
+        Vendor:
+        Product:
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Fill in what you can verify. Mark unknown or not installed where appropriate.
+      value: |
+        Distribution and version:
+        Desktop and Wayland/X11 session:
+        Kernel:
+        libinput:
+        Solaar:
+        Native GeForce NOW version:
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: What you changed and checked
+      description: Include validation, device matching, wheel settings and whether you logged out/in. Say if you adapted the quirk.
+    validations:
+      required: true
+  - type: textarea
+    id: game
+    attributes:
+      label: Actual game behaviour
+      description: Name the game and wheel action if tested, and what happens in each direction. Otherwise say not tested. Mention ordinary desktop scrolling if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: lifecycle
+    attributes:
+      label: Sleep, wake and reconnect observations
+      description: Only include checks you performed. Leaving this blank means untested.
+    validations:
+      required: false
