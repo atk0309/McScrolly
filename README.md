@@ -12,7 +12,19 @@ Your games are in the cloud. Your scroll wheel shouldn't be.
 
 If the wheel spins enthusiastically while GeForce NOW treats it as a decorative feature, this repository documents the small input configuration change that fixed our setup. The wheel has one job. We would like it back.
 
-[Get scrolling](#get-scrolling) · [How it works](docs/how-it-works.md) · [Troubleshooting](docs/troubleshooting.md) · [Report a result](https://github.com/atk0309/McScrolly/issues/new?template=compatibility-report.yml)
+[Confirmed hardware](#confirmed-working-hardware) · [Get scrolling](#get-scrolling) · [How it works](docs/how-it-works.md) · [Troubleshooting](docs/troubleshooting.md) · [Report a result](https://github.com/atk0309/McScrolly/issues/new?template=compatibility-report.yml)
+
+## Confirmed working hardware
+
+The wheels with receipts. These setups have been reported working with the native NVIDIA GeForce NOW Linux app. Each result applies to the listed setup and connection; check its evidence for versions and test limits.
+
+| Mouse | Connection | Tested desktop | GeForce NOW result | Evidence |
+| --- | --- | --- | --- | --- |
+| Logitech G903 LIGHTSPEED (HERO sensor) | Wireless receiver | Ubuntu 24.04.4, GNOME Wayland | Owner confirmed working | [Original test](#tested-with-receipts) |
+
+One confirmed setup so far. The original confirmation did not record the exact game or wheel action. Wired mode, sleep/wake and receiver reconnect behaviour remain untested.
+
+[Report your setup](https://github.com/atk0309/McScrolly/issues/new?template=compatibility-report.yml) to help grow the table. Test scrolling inside a streamed game and include the result; new reports are reviewed before being added.
 
 ## The wheel deal
 

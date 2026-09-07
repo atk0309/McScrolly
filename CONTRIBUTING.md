@@ -8,6 +8,8 @@ Use the [compatibility report](https://github.com/atk0309/McScrolly/issues/new?t
 
 Distinguish a rule that parses, one that matches a device, a fresh libinput test, and successful scrolling inside GeForce NOW. Each establishes a different part of the result. Report sleep/wake or reconnect behaviour only if you tested it.
 
+After reviewing a successful streamed-game report, add its mouse, connection, tested desktop and result to the README's [confirmed working hardware table](README.md#confirmed-working-hardware), with a link to the issue as evidence. A parser check or desktop-only test does not qualify. Keep unknowns and any failed or untested checks explicit in the linked report, and do not generalise a result to other connection modes or versions.
+
 Device serials, credentials, private paths and full input captures are unnecessary. See the [read-only identification check](docs/troubleshooting.md#identify-the-input-device) for the small set of useful device details.
 
 ## Suggest a change
